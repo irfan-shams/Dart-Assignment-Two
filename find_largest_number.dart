@@ -1,13 +1,15 @@
 void main() {
   int a = 70;
   int b = 90;
-  int c = 30;  
+  int c = 130;  
   
+  print("$a" + "|" + "$b" + "|" + "$c");
+
   if (a > b && a > c) {
-    print("A is the largest number: $a");
+    print("$a is the largest number of the above 3 numbers.");
   } else if (b > a && b > c) {
-    print("B is the largest number: $b");
+    print("$b is the largest number of the above 3 numbers.");
   } else {
-    print("C is the largest number: $c");
+    print("$c is the largest number of the above 3 numbers.");
   }    
 }
