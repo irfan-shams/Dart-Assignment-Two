@@ -2,7 +2,7 @@ void main() {
   int subject_1 = 91;
   int subject_2 = 79;
   int subject_3 = 87;
-  int subject_4 = 80;
+  int subject_4 = 75;
 
   int totalMarks = 400;
 
